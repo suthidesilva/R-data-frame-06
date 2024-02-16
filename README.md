@@ -8,6 +8,18 @@ This analysis utilizes data from rcdb.com, The Roller Coaster Database, collecte
 
 The roller coaster data is loaded from the file `coasters-2015.csv`. The first 10 rows of the dataset are displayed to provide an initial overview.
 
+Data is from rcdb.com – The roller coaster database. The data is from 2015 and has the following variables.
+
+  - **Name** : Name of the roller coaster
+  - **Park** : Name of the theme park
+  - **Track** : Type of material the roller coaster track is made of
+  - **Speed** : Top speed the ride reaches (mph)
+  - **Height** : Peak height the ride reaches (ft)
+  - **Drop** : Size of largest drop (ft)
+  - **Length** : Length of the roller coaster track (ft)
+  - **Duration** : Duration of ride (seconds)
+  - **Inversions** : Does the ride go upside down? Yes (1) or No (0)
+
 ## Data Cleaning
 
 It was observed that some columns contained ".", which could be considered as errors. To address this, the "." values were replaced with zero to ensure data integrity and prevent data loss.
